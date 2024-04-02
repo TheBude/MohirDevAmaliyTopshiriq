@@ -2,7 +2,7 @@
 
 string str = Console.ReadLine();
 
-Console.Write("Soni Kiriting: ");
+Console.Write("Soni kiriting: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 if (num > str.Length)
