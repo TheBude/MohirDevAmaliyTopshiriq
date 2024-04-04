@@ -1,15 +1,25 @@
-﻿Console.Write("string kiriting: ");
+﻿int x = 15;
+int y = 10;
 
-string str = Console.ReadLine();
-
-Console.Write("Soni kiriting: ");
-int num = Convert.ToInt32(Console.ReadLine());
-
-if (num > str.Length)
+if (x > y)
 {
-    Console.WriteLine(str.ToUpper());
+    Console.WriteLine("x is greather than y");
 }
 else
 {
-    Console.WriteLine(str.ToLower());
+    if (x < y)
+    {
+        Console.WriteLine("x is less than y");
+    }
+    else
+    {
+        if (x == y)
+        {
+            Console.WriteLine("x is equal to y");
+        }
+        else
+        {
+            Console.WriteLine("x and y are not comprable");
+        }
+    }
 }
